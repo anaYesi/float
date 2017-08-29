@@ -47,17 +47,18 @@ p{
 }
 
 /*ejemplo 3*/
-
-#ejemplo-3{
-	
-	border: 1px solid black;
-}
-
 .img-ejemplo-3{
-	height: 100px;
-	float: left;
+	height: 70px;
+	/*float: left;*/
+	position: absolute;
+	left: 0;
 }
-
+#ejemplo-3{
+	width: 400px;
+	border: 1px solid black;
+	position: relative;
+	padding-left: 100px;
+}
 
 .anterior{
 	float: left;
